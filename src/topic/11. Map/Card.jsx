@@ -1,0 +1,14 @@
+
+
+
+const Card = ({userDetails}) => {
+   return (
+    <div className='bg-gray-700 mt-5 ml-5 w-fit p-5'>
+      <h1>{userDetails.id}</h1>
+      <h1>{userDetails.age > 18 ? userDetails.name : 'To Young'}</h1>
+      <h1>{userDetails.age}</h1>
+    </div>
+  )
+}
+
+export default Card

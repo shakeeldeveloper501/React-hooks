@@ -8,3 +8,6 @@ function myFunc(a, b){
 }
 myFunc(2, 2) // 4
 
+
+
+
